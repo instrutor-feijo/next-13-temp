@@ -31,9 +31,7 @@ export default function Home() {
               priority
             />
           </a>
-          <div>
 
-          </div>
         </div>
 
         <div className={styles.center}>
@@ -63,7 +61,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://manager.azion.com"
+            href="https://manager.azion.com/import-an-existing-project"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -77,7 +75,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://manager.azion.com/build-application/build/choose-template"
             className={styles.card + ' ' + styles.last}
             target="_blank"
             rel="noopener noreferrer"
