@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({ weight: '400', subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -52,10 +52,10 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
+            <h2 className={roboto.className}>
               Docs
             </h2>
-            <p className={inter.className}>
+            <p className={roboto.className}>
               Find in-depth information abouthow to create powerful things with Azion.
             </p>
           </a>
@@ -66,10 +66,10 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
+            <h2 className={roboto.className}>
               Deploy
             </h2>
-            <p className={inter.className}>
+            <p className={roboto.className}>
               Instantly deploy your Next.js site to a shareable URL with Azion.
             </p>
           </a>
@@ -80,10 +80,10 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className={inter.className}>
+            <h2 className={roboto.className}>
               Templates
             </h2>
-            <p className={inter.className}>
+            <p className={roboto.className}>
               Find, test, and deploy edge-enabled software that runs anywhere.
             </p>
           </a>
